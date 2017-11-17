@@ -1,0 +1,34 @@
+/*
+ * @Author: Buer
+ * @Date: 2017-11-13 13:26:00
+ */
+@charset "UTF-8";
+
+html{
+    font-family: 'Helvetica Neue',      // OSX，English
+                 'Helvetica',
+                 "PingFang SC",         // OSX，苹方（华康信凭黑）
+                 "Hiragino Sans GB",    // OSX，冬青黑体
+                 'STHeitiSC-Light',     // OSX，华文黑体
+                 "Source Han Sans CN",  // 思源黑体
+                 "Source Han Sans SC",  // 思源黑体
+                 'Microsoft YaHei',     // Win，微软雅黑
+                 'WenQuanYi Micro Hei', // Linux，文泉驿微米黑
+                 'Arial',               // Win
+                 sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after{
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+$baseWidth: 375;
+$fontsize: 16px;
+
+html{
+    font-size: $fontsize;
+}
